@@ -10,7 +10,7 @@ THEMESFILES = 	exit.png \
 				logo-dm.png \
 				session.png \
 				shade.png
-BACKGROUNDDIRS = /usr/share/wallpapers/obarun
+BACKGROUNDDIRS = /usr/share/wallpapers/Obarun
 BACKGROUNDFILES = background-dm.jpg
 
 		
