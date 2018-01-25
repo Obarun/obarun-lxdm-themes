@@ -20,7 +20,7 @@ install:
 		install -Dm 0644 $$i $(DESTDIR)/$(THEMESDIRS)/$$i; \
 	done
 	
-	install -Dm 0644  $(DESTDIR)/$(BACKGROUNDDIRS)/$(BACKGROUNDFILES)
+	install -Dm 0644  $(BACKGROUNDFILES) $(DESTDIR)/$(BACKGROUNDDIRS)/$(BACKGROUNDFILES)
 				
 	install -Dm 0644 LICENSE $(DESTDIR)/usr/share/licenses/$(PKGNAME)/LICENSE
 
