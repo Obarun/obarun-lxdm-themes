@@ -3,7 +3,7 @@
 VERSION = $$(git describe --tags| sed 's/-.*//g;s/^v//;')
 PKGNAME = obarun-lxdm-themes
 
-THEMESDIRS = /usr/share/lxdm/themes
+THEMESDIRS = /usr/share/lxdm/themes/Obarun
 THEMESFILES = 	exit.png \
 				greeter-gtk3.ui \
 				index.theme \
@@ -22,7 +22,7 @@ install:
 	
 	install -Dm 0644  $(DESTDIR)/$(BACKGROUNDDIRS)/$(BACKGROUNDFILES)
 				
-	install -Dm644 LICENSE $(DESTDIR)/usr/share/licenses/$(PKGNAME)/LICENSE
+	install -Dm 0644 LICENSE $(DESTDIR)/usr/share/licenses/$(PKGNAME)/LICENSE
 
 version:
 	@echo $(VERSION)
