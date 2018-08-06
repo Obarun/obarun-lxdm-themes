@@ -1,3 +1,1 @@
-# obarun-lxdm-themes
-
-Gtk3 lxdm themes for Obarun
+This repository was transfered to https://framagit.org/Obarun
